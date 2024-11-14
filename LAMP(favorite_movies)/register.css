@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #0cc5bb;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #ff06f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #21aee5;
+}
+
+.surprize{
+    font-size:56px;
+    font-weight: bold;
+    text-align: right;
+}
+label{
+    font-size: 18px;
+}
+
+body{
+    background-image: url("image/background.jpg");
+    background-size: cover;
+}
+.avat {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -100px;
+    box-shadow: 0px 0px 10px gray;
+}
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color:rgb(31, 239, 4);
+    transition: 2s;
+
+}
+.open{
+    background: linear-gradient(to right, #d788ce 0%, #da8585 100%);
+    width: 300px;
+    padding: 5px 8px;
+    margin:19px auto 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 2s;
+}
+.box{
+    background: linear-gradient(to top, #c8c8a2 0%, #5a459d 100%);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 150px auto 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #3a3939;
+    opacity: 0.9;
+    position: relative;
+    transition: 2s;
+}
+.inputs input{
+    margin:15px auto 10px;
+    outline: none;
+    border-radius: 7px;
+    padding-top: 8px;
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+
+}
+.inputs input[type=submit]{
+    width: 30%;
+    background: linear-gradient(to top, #ff0bae 0%, #11cfff 100%);
+    font-family: "B Yekan";
+    padding-top: 2px;
+}
